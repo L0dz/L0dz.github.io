@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+body,html{
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.whoami *,
+.nav-bar a,
+.nav-bar>a>h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-decoration: none;
+    color: #F28322;
+}
+.nav-bar a{
+    float: left;
+    font-size: 10px;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    margin-left: 11.7%;
+}
+
+.nav-bar>a>h1:hover{
+    color: #8a4000;
+    transition: all 0.3s;
+}
+
+.nav-bar{
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #010326;
+    overflow: auto;;
+}
+
+.whoami{
+    clear: both;
+    float: left;
+    width: 60%;
+    margin-top: 27em;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.whoami span{
+    font-size: 78px;
+    letter-spacing: 0.2em;
+    cursor: default;
+    color: #010326;
+}
+
+.whoami span:hover{
+    color: #D96704;
+    transition: all 0.3s;
+}
+
+.whoami p{
+    font-size: 23px;
+    color: #F28322;
+}
+.whoami img{
+    margin-top: 25%;
+    z-index: 1;
+}
+.whoami img:hover{
+    width: 7%;
+    transition: all 0.3s;
+}
+.m-left{
+    margin-left: -13px;
+}
+
+.introduce{
+    border-right: solid #E8E8E8 15px;
+    background-color: #F2F2F2;
+    padding-left: 10%;
+    margin-left: 60%;
+    padding-right: 10%;
+    padding-top: 15%;
+    padding-bottom: 14%;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.introduce>h1{
+    margin-bottom: 15%;
+    width: 108%;
+    margin-left: -8%;
+    color: #010326;
+}
+
+
+
+.row>h3, .row>p{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+.table{
+    position: absolute;
+}
+.row, .table{
+    border: solid #D96704 1px;
+}
+
+.row{
+    background-color: #FFFF;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#down{
+    display: block;
+}
+#down>h3, #down>p{
+    text-align: left;
+    display: flex;
+}
+
+.row>h3{
+    margin-right: 150px;
+    color: #010326;
+}
+
+p{
+    font-family: Rockwell;
+    color: #0D2840;
+}
+
+.introduce>p{
+    margin-left: -2%;
+    margin-top: 80%;
+    text-align: left;
+    line-height: 25px;
+}
+
+
+.skills-background{
+    position: absolute;
+    margin-top: -270px;
+    transform: translateX(5%);
+    z-index: -1;
+    user-select: none;
+}
+
+#skills{
+    margin-top: 300px;
+    margin-left: 390px;
+
+}
+
+.first-part{
+    margin-top: 400px;
+}
+
+.first-part h1{
+    font-family: Raleway, sans-serif;
+}
+.first-part p{
+    font-family: Rockwell, sans-serif;
+    line-height: 22px;
+    margin-top: 70px;
+    width: 25%;
+    float: left;
+}
+
+.rates{
+    transform: translateY(-60px);
+    margin-left: 550px;
+    font-family: Raleway, sans-serif;
+    font-size: 21px;
+}
+.rates h3{
+    margin-left: 4%;
+}
+.rates div{
+    margin-left: 8%;
+    float: left;
+}
+.css{
+    clear: both;
+}
+.css,.php,.java{
+    transform: translateY(-90px);
+}
+.learn-fast{
+    clear: both;
+    transform: translateY(-60px);
+}
+.learn-fast h3{
+    margin-left: 2%;
+}
+
+.star{
+    user-select: none;
+    width: 15px;
+    margin-left: 5px;
+}
+@media only screen and (max-width:1450px){
+    .introduce>p{
+        margin-top: 110%;
+    }
+}
+@media only screen and (max-width:1450px){
+
+    .introduce{
+        padding-left: 2%;
+    }
+}
+
+@media only screen and (max-width:980px){
+    .nav-bar{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 0;
+    }
+    .nav-bar>a{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .introduce{
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: auto;
+        width: 100%;
+        border-left: none;
+        border-top: solid #E8E8E8 15px;
+    }
+    .introduce>h1{
+        justify-content: space-around;
+        display: flex;
+        flex: auto;
+        width: 100%;
+    }
+    .table{
+        position: absolute;
+        margin-top: 6%;
+        margin-left: 15%;
+    }
+    .whoami{
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+    .introduce>p{
+        display: flex;
+        margin-top: 60%;
+        width: 50%;
+        margin-left: 15%;
+    }
+}
